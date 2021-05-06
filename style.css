@@ -90,7 +90,7 @@ article:nth-child(even) {
 
 /* Добавляем к новости NEW назначив первым двум заголовкам класс*/
 
-.New:before {
+.New::before {
 	content: "New";
 	font-style: italic;
 	font-weight: normal;
